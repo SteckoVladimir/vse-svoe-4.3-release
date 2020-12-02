@@ -1,0 +1,281 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+body{
+  font-family: "Source Sans Pro";
+} */
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
+:root {
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+body p {
+  font-size: medium;
+}
+
+body {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header{
+  background: url(../image/background/about-us-background-v-2-45.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+body .h1-main-logo {
+  padding: 25px 0;
+  text-align: center;
+  color: white;
+}
+
+#top-carousel-1 .carousel-item h5 {
+  color: black;
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+#top-carousel-1 .carousel-item p {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#top-carousel-1 {
+  padding: 0 0 25px 0;
+}
+
+header #main-about-us{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+}
+header #main-about-us p{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 10px;
+}
+header #main-about-us span{
+  border: black solid 2px;
+  border-radius: 0.7rem;
+  padding: 0 0.4rem;
+  margin-right: 0.4rem;
+  font-weight: bolder;
+  margin: -0.2rem 0 0 -0.3rem;
+}
+
+
+header #main-about-us .main-container-acquaintance-heading{
+  font-size: 1.8rem;
+  padding: 1.2rem 0 2rem 10px;
+  color: white;
+  text-align: center;
+}
+
+main #production{
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+main #body-production-list{
+  margin: 0;
+}
+
+main .card img{
+  padding-top: 0.5rem;
+}
+main .card h5{
+  color: black;
+  font-weight: 600;
+}
+main .card p{
+  font-weight: 500;
+}
+
+footer{
+  background: url(../image/background/delivery-background-v-2-45.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#delivery #title-delivery{
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+#delivery h3{
+  padding-top: 1rem;
+  color: black;
+}
+#delivery .delivery-information{
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 1rem 10px 0 10px;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: black;
+}
+#delivery .delivery-information p{
+  font-weight: bold;
+  color: black;
+}
+
+#delivery .top-contact-under-carousel-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.top-contact-under-carousel-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1.5rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+#delivery .top-contact-under-carousel-1-tel-phone-number{
+  padding: 1rem 0.4rem 0 0.3rem;
+
+}
+
+#delivery .top-contact-under-carousel-1-acquaintance-price{
+  padding-top: 1rem;
+}
+
+.top-contact-under-carousel-1-tel-phone-number a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.top-contact-under-carousel-1-tel-phone-number a:hover {
+  color: blue;
+  transition-duration: 0.4s;
+}
+.top-contact-under-carousel-1-acquaintance-price a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.top-contact-under-carousel-1-acquaintance-price a:hover {
+  color: blue;
+  transition-duration: 0.4s;
+}
+
+#main-list-faq h2{
+  text-align: center;
+  color: white;
+  margin: -1rem 0 2.5rem 0;
+}
+
+.accordion{
+  color: black;
+  font-weight: 600;
+  border: black solid 1px;
+}
+.accordion button{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.accordion button:hover{
+  background-color: black;
+  color: rgba(238, 245, 137, 0.7);
+  transition-duration: 0.3s;
+  text-decoration: none;
+}
+.accordion .card-header{
+  background-color: rgba(238, 245, 137, 0.7);
+}
+.accordion .card-body{
+  background-color: rgba(0, 0, 0, 0.2);
+  border: black solid 1px;
+}
+
+footer #contacts h2{
+  padding-top: 1.5rem;
+}
+
+
+.social-media-button {
+  color: white;
+  border: none;
+  width: 48px;
+  height: 48px;
+  background-color: black;
+  border-radius: 7px;
+  margin: 5px;
+}
+.social-media-bar #social-media-bar-telegram button{
+  background-color: #0088cc;
+  font-size: x-large;
+}
+.social-media-bar #social-media-bar-telegram button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.social-media-bar #social-media-bar-instagram button {
+  background-color: rgb(148, 113, 245);
+  font-size: x-large;
+}
+.social-media-bar #social-media-bar-instagram button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.social-media-bar #social-media-bar-facebook button {
+  background-color: #3b5998;
+  font-size: x-large;
+}
+.social-media-bar #social-media-bar-facebook button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+footer #contact-us{
+  color: white;
+  text-align: center;
+  padding-top: 2rem;;
+}
+footer #contacts h2{
+  color: white;
+  text-align: center;
+}
+footer #contacts .top-contact-under-carousel-1 .social-media-bar{
+  display: flex;
+  flex-direction: row;
+}
+footer #contacts .top-contact-under-carousel-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  justify-content: space-around;
+}
+
+footer .clock{
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
