@@ -2,21 +2,21 @@
   {
     "id": "1",
     "title": "Куриная тушка",
-    "image": "../image/products/celaya-tyshka-broulera.jpg",
+    "image": "image/products/celaya-tyshka-broulera.jpg",
     "description": "Цена за 1 килограмм 85 грн. Сырое Тушка курочки выращенная на собственных кормах, охлажденная, качественный машинный ощип. Вес: 1,8 - 2,5 кг.",
     "price": 85
   },
   {
     "id": "2",
     "title": "Порцеонная курочка",
-    "image": "../image/products/porceonnaya-kyrochka.jpg",
+    "image": "image/products/porceonnaya-kyrochka.jpg",
     "description": "Сырое Курочка выращенная на собственных кормах, охлажденная, качественный машинный ощип, разделана на части для вашего удобства. Вес: 1,8 - 2,5 кг.",
     "price": 90
   },
   {
     "id": "3",
     "title": "Домашнии голубцы",
-    "image": "../image/products/domashnie-golybci.jpg",
+    "image": "image/products/domashnie-golybci.jpg",
     "description": "Цена за 1 килограмм 150 грн. Полуфабрикат / Заморожены Сочные голубцы с рисом, капустой и мясом, также вкусно, как и дома. В упаковке от 4 до 6 штук. В упаковке от 4 до 6 штук. Состав: мясо куриное, рис, капуста, лук, соль, перец черный молотый.",
     "price": 150
   },
